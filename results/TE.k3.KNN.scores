@@ -1,0 +1,13 @@
+accuracy_score  = 0.61071
+f1_score        = 0.66924
+precision_score = 0.66975
+recall_score    = 0.66872
+log_loss        = 13.44583
+roc_auc_score   = 0.64852
+avg_test_score  = 0.61060
+avg_train_score = 0.76477
+
+Model:
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_neighbors=5, p=2, weights='uniform')
+

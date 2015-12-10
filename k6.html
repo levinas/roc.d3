@@ -1,0 +1,63 @@
+<!DOCTYPE html><html class=''>
+<head><meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="canonical" href="http://codepen.io/brantwills/pen/igsoc" />
+
+
+<style class="cp-pen-styles">
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font: 10px;
+  margin: 50px;
+}
+
+.grid .tick {
+	stroke: lightgrey;
+	opacity: 0.7;
+	shape-rendering: crispEdges;
+}
+
+.grid path {
+	stroke-width: 0;
+}
+
+.axis path {
+	fill: none;
+	stroke: #bbb;
+	shape-rendering: crispEdges;
+}
+
+.axis text {
+	fill: #555;
+}
+
+.axis line {
+	stroke: #e7e7e7;
+	shape-rendering: crispEdges;
+}
+
+.axis .axis-label {
+	font-size: 14px;
+}
+
+.line {
+	fill: none;
+	stroke-width: 1.5px;
+}
+
+.dot {
+	/* consider the stroke-with the mouse detect radius? */
+	stroke: transparent;
+	stroke-width: 10px;
+	cursor: pointer;
+}
+
+.dot:hover {
+	stroke: rgba(68, 127, 255, 0.3);
+}
+ </style></head><body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+<!-- <script src='//assets.codepen.io/assets/common/stopExecutionOnTimeout.js?t=1'></script> -->
+<script src="k6.js">
+</script>
+<!-- <script src='//codepen.io/assets/editor/live/css_live_reload_init.js'></script> -->
+</body></html>

@@ -1,0 +1,13 @@
+accuracy_score  = 0.86751
+f1_score        = 0.69456
+precision_score = 0.69456
+recall_score    = 0.69456
+log_loss        = 4.57597
+roc_auc_score   = 0.89895
+avg_test_score  = 0.86750
+avg_train_score = 0.99375
+
+Model:
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=100, random_state=None)
+
